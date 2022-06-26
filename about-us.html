@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Babson Business Association is an undergraduate ran club that inspires to connect student with resources needed for a future in business analytics"/>
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <style>
+      /* .grid div:nth-child(even) {
+        background-color: red;
+      }
+      .grid div:nth-child(odd) {
+        background-color: yellow;
+      } */
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .name {
+        text-align: center;
+      }
+
+      .mission {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      .benefits {
+        grid-column: 1/4;
+      }
+      .team {
+        grid-column: 1/4;
+      }
+      .footer {
+        grid-column: 1/4;
+      }
+      img {
+        height: 150px;
+        width: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>About Us</h1>
+      <ul>
+        <li><a href="index.html" target="_self">BAA</a></li>
+        <!-- <li><a href="newsletter.html" target="_self">Newsletter</a></li> -->
+        <li><a href="events.html" target="_self"> Events</a></li>
+        <li><a href="about-us.html" target="_self">About Us</a></li>
+        <li><a href="contact-us.html" target="_self"> Contact Us</a></li>
+      </ul>
+    </header>
+    <video
+      src="video/baa-background.mp4"
+      type="video/mp4"
+      autoplay
+      loop
+    ></video>
+    <div class="grid">
+      <div class="mission">
+        <h3>Our Mission</h3>
+        <p>
+          At BAA, we provide students with the opportunity to explore their
+          interest in the analytics industry. Through workshops, speaker events,
+          and case studies, BAA allows students to gain analytical and technical
+          skills so that they may be confident in pursuing internships and other
+          opportunities. We promote knowledge of both finance fundamentals and
+          programming software to strengthen a student's ability to apply data
+          to real world situations. We assign case studies so that students may
+          collaborate with one another to solve cases for real world business
+          problems, applying critical thinking and computational skills.
+        </p>
+      </div>
+      
+      <div class="benefits">
+        <h3>Benefits</h3>
+        <p>
+          The benefits of joining BAA is the ability to network with Babson
+          Alumni, gain skills from professor-led workshops, meet other students
+          with similar interests, and get familiar with many tools that are used
+          in the industry.
+        </p>
+      </div>
+      <div class="team">
+        <h3>Our Team</h3>
+        <p>
+          Our team is made of a group of Babson students who are all interested
+          in Business Analytics and how it can apply to their own careers
+        </p>
+      </div>
+
+      <div>
+        <!-- /* will add the rest of the images when other members send them to me.*/ -->
+        <img
+          src="images/BusinessAnalyticsLogo.png"
+          alt="nairi-enright-headshot"
+        />
+        <p class="name">Nairi Enright: President</p>
+        <img
+          src="images/BusinessAnalyticsLogo.png"
+          alt="katarina-wang-headshot"
+        />
+        <p class="name">Katarina Wang: VP of Events</p>
+      </div>
+
+      <div>
+        <img
+          src="images/nicholas-garcia-headshot.JPG"
+          alt="nicholas-garcia-headshot"
+        />
+        <p class="name">Nicholas Garcia: VP of Finance</p>
+        <img
+          src="images/BusinessAnalyticsLogo.png"
+          alt="valerjia-Ilievska-headshot"
+        />
+        <p class="name">Valerija Ilievska: VP of Communications</p>
+      </div>
+
+      <div>
+        <img
+          src="images/BusinessAnalyticsLogo.png"
+          alt="sarah-glinski-headshot"
+        />
+        <p class="name">Sarah Glinski: President</p>
+        <img
+          src="images/BusinessAnalyticsLogo.png"
+          alt="alice-minkov-headshot"
+        />
+        <p class="name">Alice Minkov: VP of Marketing</p>
+      </div>
+      <div class="footer">
+        <footer>
+          &copy; Copyright 2022 Nicholas Garcia and Babson Business Analytics
+          Association <a id="sitemap" href="sitemap.html"> Site Map</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
