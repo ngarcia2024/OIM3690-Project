@@ -102,6 +102,8 @@ h3 {
 }
 footer {
   text-align: center;
+  color: lightslategray;
+  padding: 20px;
 }
 
 video {
@@ -113,4 +115,8 @@ video {
 }
 #sitemap{
   text-align: center;
+  color: lightslategray;
+  padding: 20px;
+
 }
+
